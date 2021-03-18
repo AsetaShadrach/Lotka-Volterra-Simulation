@@ -68,5 +68,5 @@ class LotkaVolterraSim():
         plt.show()
     
 
-hare_lynx  = LotkaVolterraSim(1, 1, 1, 1, 0, 0.1, 1)
-hare_lynx.simulation_execution(0.5,0.5) # for this case 0.5 is the population density per unit area
+prey_predator  = LotkaVolterraSim(1, 1, 1, 1, 0, 0.1, 1)
+prey_predator.simulation_execution(0.5,0.5) # for this case 0.5 is the population density per unit area
