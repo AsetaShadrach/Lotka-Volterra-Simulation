@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 h0 = 5         # m/s
-v = 12.4          # m/s, current velocity
+v = 5          # m/s, current velocity
 # for velocity:
     # use -ve velocity if the ball is thrown down
     # use +ve velocity if the ball is thrown up
@@ -11,8 +11,8 @@ v = 12.4          # m/s, current velocity
 
 g = 9.8         # m/s/s --- gravity 10 or 9.8
 t = 0          # starting time
-dt = 0.05     # time step
-rho = 0.70     # coefficient of restitution
+dt = 0.01     # time step
+rho = 0.90     # coefficient of restitution
 tau = 0.001     # contact time for bounce
 theta = 90      # angle between projectile vector and ground, in our case it is 90    
 hmax = h0 + (v**2)*np.sin(np.radians(theta)) / (2*g) # track the maximum height
